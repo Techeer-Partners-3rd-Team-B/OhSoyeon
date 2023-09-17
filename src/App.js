@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 
 function App() {
@@ -25,8 +25,16 @@ function App() {
           <h4>2022 &nbsp; &nbsp; GTQ 1급 취득</h4>
           <h4>2023 &nbsp; &nbsp; 컴퓨터활용능력 2급 취득</h4>
         </div>
+        <div className="item3">
+          <a href="https://www.instagram.com/___soyeonii/">
+          <img src="instagram.png"></img></a>
+          <a href="https://github.com/soyeonXTukorea">
+            <img src="github1.png"></img></a>
+          <a href="https://blog.naver.com/redosy">
+            <img src="blog.png"></img></a>
+        </div>
       </div>
   );
-}
+  }
 
 export default App;

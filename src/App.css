@@ -29,11 +29,22 @@ body {
   font-weight: lighter;
 }
 .container .item2{
-  padding-left: 250px;
+  padding-left: 180px;
 }
 .container .item2 h1{
   padding-top: 50px;
 }
 .container .item2 h4{
   font-weight: lighter;
+}
+.container .item3{
+  margin-left: 100px;
+  padding-top: 250px;
+}
+.container .item3 img{
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  padding-bottom: 20px;
+  display: grid;
 }
