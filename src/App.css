@@ -17,7 +17,8 @@ body {
   text-align: center;
 }
 .container .item h1{
-  font-size: 50px;
+  padding-top: 45px;
+  font-size: 38px;
   font-weight: bold;
   text-align: center;
 }
