@@ -7,45 +7,50 @@ body {
   background: linear-gradient(124.26deg, #737dfe 36.67%, #ffcac9 99.61%);
   color: #fff;
   font-family: 'Pretendard-Regular';
+ 
 }
 .container{
   display: flex;
-  padding: 30px 200px;
-  
+  padding: 30px 260px;
 }
-.container.item{
-  text-align: center;
-}
-.container .item h1{
+
+.item h1{
   padding-top: 45px;
   font-size: 38px;
   font-weight: bold;
   text-align: center;
 }
-.container .item h2{
+.item h2{
   text-align: center;
 }
-.container .item h4{
+.item h4{
   padding-left: 120px;
   font-weight: lighter;
 }
-.container .item2{
-  padding-left: 180px;
+.item2{
+  padding-left: 50px;
+  text-align: left;
 }
-.container .item2 h1{
+.item2 h1{
   padding-top: 50px;
 }
-.container .item2 h4{
+.item2 h4{
   font-weight: lighter;
 }
-.container .item3{
+.item3{
   margin-left: 100px;
   padding-top: 250px;
 }
-.container .item3 img{
+.item3 img{
   width: 50px;
   height: 50px;
   object-fit: cover;
   padding-bottom: 20px;
   display: grid;
+}
+.more{
+  text-align: center;
+}
+.nav .ul .li{
+  text-align: center;
 }

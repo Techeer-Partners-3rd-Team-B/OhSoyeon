@@ -1,8 +1,8 @@
 import React from "react";
 
-export default function Link(){
+export default function Connect(){
     return (
-        <div>
+        <div className="item3">
             <a href="https://www.instagram.com/___soyeonii/">
             <img src="instagram.png"></img></a>
             <a href="https://github.com/soyeonXTukorea">

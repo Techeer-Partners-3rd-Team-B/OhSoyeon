@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Detail(){
     return (
-        <div>
+        <div className="item2">
             <h1>EDUCATION</h1>
             <h4>2019.12 &nbsp; &nbsp; 가림고등학교 졸업</h4>
             <h4>2020.03  &nbsp; &nbsp; 한국공학대학교 입학</h4>

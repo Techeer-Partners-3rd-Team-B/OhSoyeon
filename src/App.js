@@ -1,22 +1,36 @@
 import React, { Component } from 'react';
 import './App.css';
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import Infomation from './component/Infomation';
 import Detail from './component/Detail';
-import Link from './component/Link';
+import Connect from './component/Connect';
+import Header from './component/Header';
+import Main from './component/Main';
+
 
 function App() {
   return (
-      <div className="container">
-        <div className="item">
-        <Infomation></Infomation>
-        </div>
-        <div className="item2">
-        <Detail></Detail>
-        </div>
-        <div className="item3">
-        <Link></Link>
-        </div>
-      </div>
+   <>
+    <BrowserRouter>
+      <nav>
+      <ul>
+        <li><Link to={'/Header'}>About</Link>
+        </li>
+        </ul>
+      </nav>
+    
+    <Routes>
+      <Route path='/' element={<Main />} />
+      <Route path="/Header" element={<Header />} />
+    </Routes>
+    </BrowserRouter>
+
+    <div className="container">
+    <Infomation/>
+    <Detail/>
+    <Connect/>
+    </div>
+    </>
   );
   }
 
